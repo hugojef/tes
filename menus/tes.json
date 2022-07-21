@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tes",
+        "command": "tes:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tes",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tes:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
